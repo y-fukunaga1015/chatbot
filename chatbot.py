@@ -8,7 +8,7 @@ USER_NAME = "user"
 ASSISTANT_NAME = "assistant"
 model = "gpt-4o-mini"
 
-st.title("StreamlitのChatサンプル（OpenAI API版）")
+st.title("StreamlitのOpenAI APIチャット（福永）")
 
 def response_chatgpt(user_msg: str, chat_history: list = []):
     system_msg = "あなたはアシスタントです。"
